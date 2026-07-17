@@ -1,0 +1,93 @@
+.abc{
+        background-color: #0CD1AA;
+        width: 100px;
+        height: 150px;
+        margin-top: 30px;
+    }
+    .b1 {
+        width: 300px;
+        background-color: white;
+        height: 40px;
+        margin-left: 100px;
+        padding-top: 5px;
+        
+    }
+    .b2 {
+        width: 200px;
+        background-color: white;
+        height: 40px;
+        margin-left: 450px;
+         margin-top: -45px;
+        padding-top: 5px;
+       
+    }
+    .b3 {
+        width: 200px;
+        background-color: white;
+        height: 40px;
+        margin-left: 700px;
+        padding-top: 5px;
+        margin-top: -45px;
+    }
+    .b4 {
+        width: 200px;
+        background-color: white;
+        height: 40px;
+        margin-left: 950px;
+        padding-top: 5px;
+        margin-top: -45px;
+    }
+    .xyz{
+        height: 600px;
+        width: 300px;
+        background-color: #59bfd9;
+    }
+    .pop{
+        height: 188px;
+        width: 955px;
+        background-color: #e6936a;
+        margin-left: 310px;
+        margin-top: 618px;
+    }
+    .pop2 {
+        height: 188px;
+        width: 955px;
+        background-color: green;
+        margin-left: 310px;
+    }
+    .pop1 {
+        height: 188px;
+        width: 955px;
+        background-color: #ff644d;
+        margin-left: 310px;
+    }
+    .b5{
+        width: 160px;
+        background-color: white;
+        height: 40px;
+        margin-left: 100px;
+        padding-top: 5px;
+    }
+    .b6{
+        width: 160px;
+        background-color: white;
+        height: 40px;
+        margin-left: 100px;
+        padding-top: 5px;
+        margin-top: -45px;
+    }
+    .b7{width: 160px;
+        background-color: white;
+        height: 40px;
+        margin-left: 100px;
+        padding-top: 5px;
+        margin-top: -45px;
+    }
+    .b8{
+        width: 160px;
+        background-color: white;
+        height: 40px;
+        margin-left: 100px;
+        padding-top: 5px;
+        margin-top: -45px;
+    }
