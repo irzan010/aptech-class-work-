@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>Bulb</title>
+<body>
+    <h4>Bulb on off on clicking using toogle function</h4>
+    <img id="bulb" src="bulb_off.jpg" onclick="tooglelightBulb()" >
+
+    <script>
+        function tooglelightBulb(){
+            var bulb = document.getElementById("bulb");
+            if(bulb.src.endsWith("bulb_off.jpg")){
+                bulb.src="bulb_on.jpg";
+            }
+            else{
+                bulb.src="bulb_off.jpg";
+            }
+        }
+    </script>
+    
+</body>
+</html>
