@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .preLoader {
+        position: ;
+        top: ;
+        bottom: ;
+        left: ;
+        right: ;
+        background-color: blue
+
+    }
+    .abc {
+        position: ;
+        left: 40%;
+        top: 40%;
+        background-image: url();
+        background-size:cover ;
+        height: 250px;
+        width: 250px;
+        animation-name: fcb;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+</style>
+<body>
+    <div class="preLoader">
+        <div class="abc"></div>
+    </div>
+    <h1>WELCOM TO FUTBLO CLUB DE BARCELONA</h1>
+    <script>
+        $window(.on("load",function() {
+            $(".abc").delay(4000).fadeOut();
+            $("preLoader").delay(4000).fadeOut("slow");
+        }))
+    </script>
+</body>
+</html>

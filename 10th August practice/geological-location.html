@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Geological Location Example</h1>
+    <p id="location">Getting your location...</p>
+    <script>
+        function getlocation() {
+            if( navigator.geolocation){
+                navigation.geolocation.getCurrentPostion(showPosition);
+            }
+            else{
+                document.getElementById("location").innerHTML = "Geological is not supported in this browse. ";
+            }
+        }
+        function showPosition(position) {
+            var latitude = position.coords.latitude;
+            var longitutde = position.coords.longitude;
+            var locationElement = document.getElementById("location").innerHTML = "latitude: " + latitude + "<br>longitude: " + longitude;
+        }
+        getlocation();
+    </script>
+</body>
+</html>
