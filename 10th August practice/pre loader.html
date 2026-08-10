@@ -4,28 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script> src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+</script>
 </head>
 <style>
     .preLoader {
-        position: ;
-        top: ;
-        bottom: ;
-        left: ;
-        right: ;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
         background-color: blue
 
     }
     .abc {
-        position: ;
+        position: relative;
         left: 40%;
         top: 40%;
-        background-image: url();
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlJ4ZJIDZMz63FWZaTX2Q7ojTWDEqASubYBbfJ31DraA&s=10);
         background-size:cover ;
-        height: 250px;
-        width: 250px;
+        height: 400px;
+        width: 400px;
         animation-name: fcb;
-        animation-duration: 1s;
+        animation-duration: 2s;
         animation-iteration-count: infinite;
+    }
+    @keyframes test {
+        from{
+            transform: scale(1.5);
+        }
+        to{
+            transform: scale(2);
+        }
     }
 </style>
 <body>
@@ -33,11 +43,12 @@
         <div class="abc"></div>
     </div>
     <h1>WELCOM TO FUTBLO CLUB DE BARCELONA</h1>
+
     <script>
-        $window(.on("load",function() {
+        $(window).on("load", function () {
             $(".abc").delay(4000).fadeOut();
-            $("preLoader").delay(4000).fadeOut("slow");
-        }))
+            $(".preLoader").delay(4000).fadeOut("slow");
+        })
     </script>
 </body>
 </html>
