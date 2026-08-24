@@ -1,0 +1,77 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div id="pp" class="col-md-4">
+<h1><b>Heading</b></h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<br><button id="btn1">Learn More</button>
+</div>
+
+<div class="col-md-4">
+<div id="pp1">
+<h1><b>Heading</b></h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</div>
+<button id="btn2">Learn More</button>
+</div>
+<div class="col-md-4">
+<div id="pp3">
+<h1><b>Heading</b></h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</div>
+<button id="btn3">Learn More</button>
+</div>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>toggle to be done with bootsrtap</title>
+</head>
+<script>
+    $(document).ready(function(){
+        $("#btn1").click(function(){
+            $("#pp").append("Hola Amigo Comostas");
+        });
+    });
+    $(document).ready(function(){
+        $("#btn2").click(function (){
+            $("#pp1").slideToggle("slow");
+        });
+    });
+
+    $(document).ready(function(){
+        $("#btn3").click(function(){
+            $("#pp3").css("color","red");
+        });
+    });
+</script>
+<body>
+    <div id="pp" class="col-md-4">
+        <h1><b>Heading</b></h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi accusamus debitis corrupti perferendis dolore obcaecati dicta similique sit mollitia porro.
+        <br><button id="btn1">Learn More</button>
+    </div>
+    <div class="col-md-4">
+        <div id="pp1">
+            <h1><b>Heading</b></h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem reprehenderit molestias veritatis optio adipisci et ea laborum fugit! Quaerat, praesentium.
+        </div>
+        <button id="btn2">Learn More</button>
+    </div>
+    <div class="col-md-4">
+        <div id="pp3">
+            <h1><b>Heading</b></h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perspiciatis itaque amet qui omnis soluta in ratione deserunt saepe dolorum.
+        </div>
+        <button id="btn3">Learn More </button>
+    </div>
+</body>
+</html>
