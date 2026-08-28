@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>live oppossite html</title>
+</head>
+<body>
+    
+<ul id="task-list" class="list-group">
+<li class="list-group-item">
+Task 1 <button class="btn btn-danger delete-btn">Delete</button>
+</li>
+<li class="list-group-item">
+Task 2 <button class="btn btn-danger delete-btn">Delete</button>
+</li>
+<li class="list-group-item">
+Task 3 <button class="btn btn-danger delete-btn">Delete</button>
+</li>
+</ul>
+
+
+<script>
+$("#task-list").on("click", ".delete-btn", function () {
+const listItem = $(this).closest("li");
+listItem.remove();
+});
+</script>
+
+</body>
+</html>
